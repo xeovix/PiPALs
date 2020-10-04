@@ -5,4 +5,4 @@ After searching the solutions of the Expansion of Input/Output control on Raspbe
 
 The hardware design was starting up from the beginning of 2020. as the original idea for Open Source, the hardware is using the basic TTL/CMOS devices, it should be helpfule for readers to catch my idea and well understanding from the schematics.
 
-For the compatibility of XXX Pi familities, I was using the nibble size of Data transfering to avoid some other board's GPIO has no bi-direction function. 
+For the compatibility of XXX Pi families, I was using the nibble width for Data transfering to avoid some other board's GPIO has no bi-direction function. 
