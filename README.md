@@ -1,4 +1,4 @@
-# PiPAL
+## PiPAL ##
 PiPAL is a Project to design a series of industrial automatic control devices for Raspberry Pi. 
 
 After searching the solutions for the Expansion of Input/Output control on Raspberry PI's GPIO, all I'd found are both based on I2C or serial communication. Experienced from the passed jobs and referenced from the old school design of PC's AT/XT Bus, A TTL/CMOS logical interface will be better than I2C or serial communication bus in industrial control use. It should be more stable in anti-EMS or anti-Noise for some critical environment in industrial field.
