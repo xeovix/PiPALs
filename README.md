@@ -76,7 +76,7 @@ The bridge between Main Station and Modules is a parallel interface, and called 
 
 **DRQ**
 
-​		Data Request, input pin. The Module use this pin to inform Main Station for sending or receiving data by ADI0~ADI3 or ADO0~ADO3. It also could be 		treated as a software interrupt for Module. 
+​		Data Request, input pin. The Module use this pin to inform Main Station for sending or receiving data by ADI0 ~ ADI3 or ADO0 ~ ADO3. It also could be 		treated as a software interrupt for Module. 
 
 **SCL**
 
