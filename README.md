@@ -32,7 +32,7 @@ The bridge between Main Station and Modules is a parallel interface, and called 
 
 <img src="D:\Raspberry\XeoPiMateProject\DOCs\PICs\palbus_diagram.jpg" style="zoom:50%;" />
 
-#### <u>**Pin Description**</u>
+#### <ul>**Pin Description**</ul>
 
 **CLK**
 
