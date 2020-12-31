@@ -2,7 +2,7 @@
 
 ------
 
-#### **<u>Introduction</u>**
+#### **<ins>Introduction</ins>**
 
 PiPALs is a project which attend to develop a series of automatic control devices for Raspberry Pi (called RPi in after) and the other compatible platforms (such as Orange Pi, Banana Pi, .... called XPi in after)
 
@@ -32,7 +32,7 @@ The bridge between Main Station and Modules is a parallel interface, and called 
 
 <img src="D:\Raspberry\XeoPiMateProject\DOCs\PICs\palbus_diagram.jpg" style="zoom:50%;" />
 
-#### <ul>**Pin Description**</ul>
+#### <ins>**Pin Description**</ins>
 
 **CLK**
 
@@ -96,7 +96,7 @@ The bridge between Main Station and Modules is a parallel interface, and called 
 
  
 
-#### <u>**How the PALBus works**</u>
+#### <ins>**How the PALBus works**</ins>
 
 For any protocol or communication between devices, there are always 4 phases in a full procedure.
 
