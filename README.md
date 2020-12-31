@@ -113,7 +113,7 @@ So the PALBus is also following these 4 phases.
 
 ​		From 1981, the IBM PC introduced the ISA Bus to VESA, most of interface design were depends on hardware. After a decade, the PCI bus were used 		instead, using firmware to offer the peripheral information became the standard way on Operation System.
 
-​		When PALBus starts up, Main Station uses RW, SEL0~SEL3, INIT, ALE and CLK to inquire each connected Module for getting Module's information. A 		fixed 32-clock by CLK pin, Module will send 32 nibbles by ADI0~ADI3. These total 16 bytes (32 nibbles) are described the Module's vendor ID,  		 		module ID, Address width, Data width ... etc.
+​		When PALBus starts up, Main Station uses RW, SEL0~SEL3, INIT, ALE and CLK to inquire each connected Module for getting Module's information. A 		fixed 32-clock by CLK pin, Module will send 32 nibbles by ADI0 ~ ADI3. These total 16 bytes (32 nibbles) are described the Module's vendor ID,  		 		module ID, Address width, Data width ... etc.
 
 ​		The Main Station's software in followed handling is according to these information to communicate with each connected Module.
 
@@ -121,7 +121,7 @@ So the PALBus is also following these 4 phases.
 
 **Reading**
 
-​		When Main Station proceed **Reading**, it drives the RW to LO, drives ALE to LO, sets SEL0~SEL3 to access which Module, and set an ADDRESS nibble 		by ADO0~ADO3, then drives CLK from HI to LO to complete a cycle. The times of CLK is depends on the Module's Address Width which had been 		registered in **Initializing** phase.
+​		When Main Station proceed **Reading**, it drives the RW to LO, drives ALE to LO, sets SEL0~SEL3 to access which Module, and set an ADDRESS nibble 		by ADO0 ~ ADO3, then drives CLK from HI to LO to complete a cycle. The times of CLK is depends on the Module's Address Width which had been 		registered in **Initializing** phase.
 
 ​		After ADDRESS located, the Main Station drives the RW to HI, drives ALE to HI, and drives CLK from HI to LO to complete a cycle, then get a DATA 	 		nibble from ADI0~ADI3. The times of CLK is also depends on the Module's Data Width which had been registered in **Initializing** phase.
 
