@@ -129,9 +129,9 @@ So the PALBus is also following these 4 phases.
 
 **Writing**
 
-​		When Main Station proceed **Writing**, it drives the RW to LO, drives ALE to LO, sets SEL0~SEL3 to access which Module, and set an ADDRESS nibble 		by ADO0~ADO3, then drives CLK from HI to LO to complete a cycle, The times of CLK is depends on the Module's Address Width which had been 		registered in **Initializing** phase. 
+​		When Main Station proceed **Writing**, it drives the RW to LO, drives ALE to LO, sets SEL0 ~ SEL3 to access which Module, and set an ADDRESS nibble 		by ADO0 ~ ADO3, then drives CLK from HI to LO to complete a cycle, The times of CLK is depends on the Module's Address Width which had been 		registered in **Initializing** phase. 
 
-​		After ADDRESS located, the Main Station drives the RW to LO, drives ALE to HI, and set a DATA nibble by ADO0~ADO3, then drives CLK from HI to LO 		to complete a cycle. The times of CLK is also depends on the Module's Data Width which had been registered in **Initializing** phase. 
+​		After ADDRESS located, the Main Station drives the RW to LO, drives ALE to HI, and set a DATA nibble by ADO0 ~ ADO3, then drives CLK from HI to LO 		to complete a cycle. The times of CLK is also depends on the Module's Data Width which had been registered in **Initializing** phase. 
 
 
 
