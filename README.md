@@ -30,7 +30,7 @@ The prototype of Main Station Shield for RPi and Multi-IO Shield for Arduino Meg
 
 The bridge between Main Station and Modules is a parallel interface, and called PALBus. The idea was enlightened in 2019, the final diagram is as following.
 
-<img src=".\PICs\palbus_diagram.jpg" style="zoom:50%;" />
+<img src=".\pics\palbus_diagram.jpg" style="zoom:50%;" />
 
 #### <ins>**Pin Description**</ins>
 
